@@ -121,7 +121,7 @@ const DataTable = (props) => {
         </div>
 
         <div className='ml-auto'>
-          <button className='btn-icon-only text-light btn btn- btn-sm' onClick={_handleReset}> 
+          <button className='btn-icon-only text-light btn btn- btn-sm' onClick={_handleReset}>
             <i class="fas fa-redo" />
           </button>
           {(isExportExcel) &&
