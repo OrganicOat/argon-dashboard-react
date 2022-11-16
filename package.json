@@ -58,10 +58,13 @@
     "react-scripts": "5.0.1",
     "reactstrap": "8.9.0",
     "sass": "1.54.5"
+    
   },
   "devDependencies": {
+    "file-saver": "^2.0.5",
     "gulp": "4.0.2",
-    "gulp-append-prepend": "1.0.9"
+    "gulp-append-prepend": "1.0.9",
+    "xlsx": "^0.18.5"
   },
   "peerDependencies": {
     "react": ">=16.0.0",
