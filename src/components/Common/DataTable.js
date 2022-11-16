@@ -128,7 +128,6 @@ const DataTable = (props) => {
             <UncontrolledDropdown>
               <DropdownToggle
                 className="btn-icon-only text-light"
-                href="#pablo"
                 role="button"
                 size="sm"
                 color=""
@@ -137,7 +136,7 @@ const DataTable = (props) => {
               </DropdownToggle>
               {isExportExcel &&
                 <DropdownMenu className="dropdown-menu-arrow" right>
-                  <DropdownItem href="#pablo" onClick={exportExcel}>
+                  <DropdownItem onClick={exportExcel}>
                     Excel
                   </DropdownItem>
                 </DropdownMenu>
@@ -203,10 +202,7 @@ const DataTable = (props) => {
                 </PaginationItem>
               ))}
               <PaginationItem className={activePage === totalPage && "disabled"}>
-                <PaginationLink
-                  href="#pablo"
-                  onClick={() => _handlePageChange(activePage + 1)}
-                >
+                <PaginationLink onClick={() => _handlePageChange(activePage + 1)}>
                   <i className="fas fa-angle-right" />
                   <span className="sr-only">Next</span>
                 </PaginationLink>
