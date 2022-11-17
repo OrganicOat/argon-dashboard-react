@@ -43,6 +43,7 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "file-saver": "^2.0.5",
     "@fortawesome/fontawesome-free": "5.15.3",
     "bootstrap": "4.6.0",
     "chart.js": "2.9.4",
@@ -57,14 +58,12 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "5.0.1",
     "reactstrap": "8.9.0",
-    "sass": "1.54.5"
-    
+    "sass": "1.54.5",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "file-saver": "^2.0.5",
     "gulp": "4.0.2",
-    "gulp-append-prepend": "1.0.9",
-    "xlsx": "^0.18.5"
+    "gulp-append-prepend": "1.0.9"
   },
   "peerDependencies": {
     "react": ">=16.0.0",
